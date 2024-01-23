@@ -49,13 +49,13 @@
 
 - 解决办法：
   - 打开项目的.git文件中的`config`
-    ![Alt text](image-24.png)
+  - ![Alt text](image-24.png)
 
   - 修改url为ssh（我这里已经修改了）
-    ![Alt text](image-22.png)
+  - ![Alt text](image-22.png)
 
   - ssh在github中的位置
-    ![Alt text](image-23.png)
+  - ![Alt text](image-23.png)
 
 ---
 仅记录学习，侵权删
