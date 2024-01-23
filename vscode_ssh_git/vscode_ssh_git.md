@@ -8,6 +8,7 @@
 1. 创建密钥对：打开`git bash`，输入`ssh-keygen`。
 2. 我这里之前创建过密钥对，所以会询问我是否覆盖，为了演示，输入`y`。
 3. Enter passphrase：个人学习的话，建议直接回车（设置为空），不然后期`git push`的时候会一直让你输入这个passphrase，比较麻烦。
+
 ![](image-15.png)
 
 - 密钥的位置：`C:\Users\sugar\.ssh`，sugar换成你自己的用户名
@@ -16,16 +17,20 @@
 
 ### 二. 配置github公钥
 1. 登录自己的github：`settings -> SSH and GPG keys -> NEW SSH key`。
+
 ![](image-4.png)
 
 1. 填写`Title`，然后将`id_rsa.pub`的内容粘贴到`Key`中。
+
 ![](image-11.png)
 
 ### 三. 测试连接github
 1. 创建一个test文件夹，里面写一个`test.md`文件，用于测试。
+
 ![](image-13.png)
 
 1. 将`test.md`在vscode中打开，在terminal开启git bash，输入`ssh -T git@github.com`，测试密钥是否正常。
+
 ![](image.png)
 
 ### 四. vscode中提交代码到github
