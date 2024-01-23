@@ -1,4 +1,4 @@
-## ShadowsocksR(SSR)简单使用教程_3
+## ShadowsocksR(SSR)简单使用教程
 
 ### 一. 系统代理
 ![Alt text](image-3.png)
