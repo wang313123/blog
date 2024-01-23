@@ -20,7 +20,7 @@
 
 ![](image-4.png)
 
-1. 填写`Title`，然后将`id_rsa.pub`的内容粘贴到`Key`中。
+2. 填写`Title`，然后将`id_rsa.pub`的内容粘贴到`Key`中。
 
 ![](image-11.png)
 
@@ -29,45 +29,45 @@
 
 ![](image-13.png)
 
-1. 将`test.md`在vscode中打开，在terminal开启git bash，输入`ssh -T git@github.com`，测试密钥是否正常。
+2. 将`test.md`在vscode中打开，在terminal开启git bash，输入`ssh -T git@github.com`，测试密钥是否正常。
 
 ![](image.png)
 
 ### 四. vscode中提交代码到github
-1. 打开test文件夹`Open Folder`
+#### 1. 打开test文件夹`Open Folder`
 
 ![](image-14.png)
 
-1. 初始化仓库`Initialize Reposiroty`
+#### 2. 初始化仓库`Initialize Reposiroty`
 
 ![](image-16.png)
 
-2. `git add`：点击加号
+#### 3. `git add`：点击加号
 
 ![](image-17.png)
 
-3. `git commit`：填写Message后，点击commit
+#### 4. `git commit`：填写Message后，点击commit
 
 ![](image-18.png)
 
-4. `git push`：点击publish
+#### 5. `git push`：点击publish
 
 ![](image-19.png)
 
-#### **`git push`可能遇到的问题**：
+### **`git push`可能遇到的问题**：
   
 ![](image-20.png)
 
-#### 解决办法：
-1. 打开项目的.git文件中的`config`
+### 解决办法：
+#### 1. 打开项目的.git文件中的`config`
 
  ![](image-24.png)
 
-2. 修改url为ssh（我这里已经修改了）
+#### 2. 修改url为ssh（我这里已经修改了）
 
  ![](image-22.png)
 
-3. ssh在github中的位置
+#### 3. ssh在github中的位置
 
  ![](image-23.png)
 
