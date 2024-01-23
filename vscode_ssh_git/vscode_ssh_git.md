@@ -54,20 +54,20 @@
 
 ![](image-19.png)
 
-- **`git push`可能遇到的问题**：
+#### **`git push`可能遇到的问题**：
   
 ![](image-20.png)
 
-- 解决办法：
-  - 打开项目的.git文件中的`config`
+#### 解决办法：
+1. 打开项目的.git文件中的`config`
 
  ![](image-24.png)
 
-  - 修改url为ssh（我这里已经修改了）
+2. 修改url为ssh（我这里已经修改了）
 
  ![](image-22.png)
 
-  - ssh在github中的位置
+3. ssh在github中的位置
 
  ![](image-23.png)
 
