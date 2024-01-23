@@ -30,31 +30,40 @@
 
 ### 四. vscode中提交代码到github
 1. 打开test文件夹`Open Folder`
+
 ![](image-14.png)
 
 1. 初始化仓库`Initialize Reposiroty`
+
 ![](image-16.png)
 
-1. `git add`：点击加号
+2. `git add`：点击加号
+
 ![](image-17.png)
 
-1. `git commit`：填写Message后，点击commit
+3. `git commit`：填写Message后，点击commit
+
 ![](image-18.png)
 
-1. `git push`：点击publish
+4. `git push`：点击publish
+
 ![](image-19.png)
 
 - **`git push`可能遇到的问题**：
+  
 ![](image-20.png)
 
 - 解决办法：
   - 打开项目的.git文件中的`config`
+
  ![](image-24.png)
 
   - 修改url为ssh（我这里已经修改了）
+
  ![](image-22.png)
 
   - ssh在github中的位置
+
  ![](image-23.png)
 
 ---
